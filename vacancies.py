@@ -1,7 +1,4 @@
-
-
 from __future__ import annotations
-
 import os
 import sys
 import time
@@ -664,4 +661,5 @@ async def main() -> None:
         sys.exit(1)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
